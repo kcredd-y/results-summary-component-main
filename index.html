@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.google.com/specimen/Hanken+Grotesk"
+    />
+    <link rel="stylesheet" href="styles.css" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Results summary component</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="left-container">
+        <p>Your Result</p>
+        <div class="circle">
+          <div>76</div>
+          <div>of 100</div>
+        </div>
+        <p>Great</p>
+        <p>
+          You scored higher than 65% of the people who have taken these tests.
+        </p>
+      </div>
+      <div class="right-container">
+        <h3>Summary</h3>
+        <div class="wrapper">
+          <div class="trial" id="red">
+            <img src="/assets/images/icon-reaction.svg" alt="" />
+            <div>Reaction</div>
+            <span class="scorered"
+              ><strong>80</strong> <span class="fractionred"> / 100</span></span
+            >
+          </div>
+          <div class="trial" id="yellow">
+            <img src="/assets/images/icon-memory.svg" alt="" />
+            <div>Memory</div>
+            <span class="scoreyellow"
+              ><strong>92</strong>
+              <span class="fractionyellow"> / 100</span></span
+            >
+          </div>
+          <div class="trial" id="green">
+            <img src="/assets/images/icon-verbal.svg" alt="" />
+            <div>Verbal</div>
+            <span class="scoregreen"
+              ><strong>61</strong
+              ><span class="fractiongreen"> / 100</span></span
+            >
+          </div>
+          <div class="trial" id="blue">
+            <img src="/assets/images/icon-visual.svg" alt="" />
+            <div>Visual</div>
+            <span class="scoreblue"
+              ><strong>72</strong><span class="fractionblue"> /100</span></span
+            >
+          </div>
+        </div>
+        <button type="submit">Continue</button>
+      </div>
+    </div>
+  </body>
+</html>

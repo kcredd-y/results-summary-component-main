@@ -1,0 +1,163 @@
+body {
+  font-family: "Hanken Grotesk", sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  font-size: 18px;
+  background-color: azure;
+}
+
+.container {
+  height: 400px;
+  width: 500px;
+  display: flex;
+  flex-flow: row wrap;
+}
+ul {
+  list-style: none;
+}
+.left-container {
+  width: 250px;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  border-radius: 20px;
+  background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
+
+.left-container p:first-child {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  color: white;
+  opacity: 0.8;
+}
+.circle {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.circle div:first-child {
+  font-size: 50px;
+  font-weight: 800;
+}
+.circle div:last-child {
+  opacity: 0.7;
+}
+
+.left-container p:nth-of-type(2) {
+  font-size: 1em;
+  margin-bottom: 0;
+  color: white;
+}
+.left-container p:last-child {
+  opacity: 0.8;
+  width: 150px;
+  padding: 5px;
+  text-align: center;
+  font-size: 0.65em;
+  color: white;
+}
+
+.right-container {
+  flex: 1;
+  width: 250px;
+  display: flex;
+  flex-flow: column wrap;
+  padding: 1em;
+  box-shadow: 2px 2px 100px 5px hsl(241, 100%, 89%);
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+h3 {
+  margin-top: 0;
+}
+
+.wrapper {
+  height: 250px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+}
+
+.trial {
+  height: 3em;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 0.8em;
+  border-radius: 10px;
+}
+
+#red {
+  background-color: #ffe6e6;
+  color: #990000;
+}
+
+.scorered {
+  color: black;
+}
+
+.scorered .fractionred {
+  opacity: 0.7;
+}
+#yellow {
+  background-color: #fff6e6;
+  color: #ffa200;
+}
+.scoreyellow {
+  color: black;
+}
+
+.scoreyellow .fractionyellow {
+  opacity: 0.7;
+}
+
+#green {
+  background-color: #ccfff3;
+  color: #009975;
+}
+
+.scoregreen {
+  color: black;
+}
+
+.scoregreen .fractiongreen {
+  opacity: 0.7;
+}
+
+#blue {
+  background-color: #f2f2f2;
+  color: #1226d3;
+}
+.scoreblue {
+  color: black;
+}
+.scoreblue .fractionblue {
+  opacity: 0.7;
+}
+
+button {
+  margin-top: 1em;
+  margin-left: 1em;
+  height: 2.8em;
+  width: 200px;
+  border-radius: 25px;
+  color: white;
+  background-color: hsl(224, 30%, 27%);
+  border: none;
+}
+
+button:focus {
+  background-color: #007fff;
+}
